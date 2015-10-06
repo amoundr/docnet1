@@ -6,8 +6,8 @@ module.exports = {
       css: [
         'public/lib/bootstrap/dist/css/bootstrap.css',
         'public/lib/bootstrap/dist/css/bootstrap-theme.css',
-        'http://fonts.googleapis.com/css?family=Oswald:400,300,700',
-        'http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800'
+        'https://fonts.googleapis.com/css?family=Oswald:400,300,700',
+        'https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800'
       ],
       js: [
         'public/lib/angular/angular.js',
