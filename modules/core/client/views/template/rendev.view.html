@@ -1,0 +1,115 @@
+ <!---- contact ---->
+            <div id="rdvz" class="services"> <!---- rendezVous---->
+                
+                        <div class="container"> <!---- container---->
+                            <h3>Prise de Rendez-vous</h3> 
+
+                                                <div class="col-md-5 contact-grid-left">
+                                                    <h4>contact information</h4>
+                                                    <form action="" method="">
+                                                          <div class="form-group">
+                                                                <input type="text" class="form-control" ng-model="nom" placeholder="Nom">
+                                                          </div>
+                                                          <div class="form-group">
+                                                                <input type="text" class="form-control" ng-model="prenom" placeholder="Prenom">
+                                                          </div>
+                                                          <div class="form-group">
+                                                                <input type="email" class="form-control" ng-model="email" placeholder="Email">
+                                                          </div>
+                                                          <div class="form-group">
+                                                                <input type="text" class="form-control" ng-model="telephone" placeholder="Tel">
+                                                          </div>
+                                                        <b>Selectionner une date :</b> 
+                                                        <input type="date"  ng-model="rendev.date"/>
+                                          
+                                                                    <br><br><input type="button"  class="btn btn-lg" ng-click="prendrerdv()" value="Valider" />
+                                                </div>
+                                                        
+                                            <div class="col-md-7 contact-grid-right">
+                                                                <h4>Choisir Horaire</h4>
+                                                    <table class="table table-striped changeback">
+                                                        <tr>
+                                                        <th>Horaire Disponible</th><th>Reserver</th>
+                                                        </tr>
+                        
+                                                                <tr><td>08h00 - 09h00</td>
+                                                                    <td>
+                                                                        <div class="radio">
+                                                                            <input type="radio" ng-model="rendev.heure" value="8" checked>
+                                                                        </div>
+                                                                    </td>                                             
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>09h00 - 10h00</td>
+                                                                    <td>
+                                                                        <div class="radio">
+                                                                            <input type="radio" ng-model="rendev.heure" value="9" >
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                            <tr>
+                                                                <td>10h00 - 11h00</td>
+                                                                <td>
+                                                                    <div class="radio">
+                                                                        <input type="radio" ng-model="rendev.heure" value="10" >
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>11h00 - 12h00</td>
+                                                                <td>
+                                                                    <div class="radio">
+                                                                        <input type="radio" ng-model="rendev.heure" value="11" >
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>12h00 - 13h00</td>
+                                                                <td>
+                                                                    <div class="radio">
+                                                                        <input type="radio" ng-model="rendev.heure" value="12" >
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>14h00 - 15h00</td>
+                                                                <td>
+                                                                    <div class="radio">
+                                                                        <input type="radio" ng-model="rendev.heure" value="14" >
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>15h00 - 16h00</td>
+                                                                <td>
+                                                                    <div class="radio">
+                                                                        <input type="radio" ng-model="rendev.heure" value="15" >
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>16h00 -> 17h00</td>
+                                                                <td>
+                                                                    <div class="radio">
+                                                                        <input type="radio" ng-model="rendev.heure" value="16" >
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>17h00 -> 18h00</td>
+                                                                <td>
+                                                                    <div class="radio">
+                                                                        <input type="radio" ng-model="rendev.heure" value="17" >
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+
+                                                    </table>
+
+                                        </div>
+                        
+                                                        </form>
+                        </div><!---- container---->
+                
+                </div> <!---- about---->
+           <!---- rendezVous---->
