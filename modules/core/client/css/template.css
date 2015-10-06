@@ -1,0 +1,46 @@
+
+.template img {
+
+  width: 70%;
+  height: 200px;
+
+}
+
+.template {
+
+  text-align: center;
+}
+
+.template a {
+
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+.template .col-md-4 {
+
+  margin-bottom: 20px;
+}
+
+.img-full {
+
+  width: 100%;
+}
+
+.fix-hei {
+
+  height: 300px;
+  margin-bottom: 30px;
+}
+
+.fix-ho {
+
+  height: 70px;
+  margin-bottom: 30px;
+}
+
+.martop {
+
+  margin-bottom: 15px;
+}

@@ -1,0 +1,33 @@
+<section ng-controller="DoctorsController">
+  
+        
+            
+             <!-----  Slider  ----> 
+            <div ng-include="'/modules/doctors/client/views/doctor1/slider.view.html'"></div>
+                              
+            <!-----  Prise de rendez-vous  ----> 
+            <div ng-include="'/modules/doctors/client/views/doctor1/rendev.view.html'" ng-hide="prise"></div>
+         
+            <!-----  rendez-vous pris avec succes ---->
+            <div ng-include="'/modules/doctors/client/views/doctor1/rendev.success.view.html'" ng-show="prise"></div>
+
+            <!-----  a propos de nous  ---->
+            <div ng-include="'/modules/doctors/client/views/doctor1/about.view.html'"></div>
+
+            <!-----  Nos Services  ---->
+            <div ng-include="'/modules/doctors/client/views/doctor1/services.view.html'"></div> 
+            
+            <!-----  Notre Equipe  ---->
+            <div ng-include="'/modules/doctors/client/views/doctor1/team.view.html'"></div> 
+            
+            <!-----  Contact  ---->
+            <div ng-include="'/modules/doctors/client/views/doctor1/contact.view.html'"></div>
+
+            <!-----  Footer  ---->
+            <div ng-include="'/modules/doctors/client/views/doctor1/footer.view.html'"></div>
+            
+
+
+
+
+</section>

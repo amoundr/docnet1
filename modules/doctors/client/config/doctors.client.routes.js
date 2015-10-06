@@ -14,6 +14,14 @@ angular.module('doctors').config(['$stateProvider',
         url: '',
         templateUrl: 'modules/doctors/client/views/list-doctors.client.view.html'
       })
+      .state('example', {
+        url: '/example',
+        templateUrl: 'modules/doctors/client/views/example.client.view.html'
+      })
+      .state('doctor1', {
+        url: '/doctor1',
+        templateUrl: 'modules/doctors/client/views/doctor1.client.view.html'
+      })
       .state('doctors.create', {
         url: '/create',
         templateUrl: 'modules/doctors/client/views/create-doctor.client.view.html',
