@@ -214,7 +214,7 @@ nav a#pull {
 	}
 	nav a#pull:after {
 		content:"";
-		background: url('https://aqueous-river-8468.herokuapp.com/modules/doctors/client/img/nav-icon.png') no-repeat;
+		background: url('/modules/doctors/client/img/nav-icon.png') no-repeat;
 		width: 30px;
 		height: 30px;
 		display: inline-block;
@@ -341,7 +341,7 @@ nav a#pull {
 	text-decoration: none;
 	height: 43px;
 	width: 43px;
-	background: transparent url("https://aqueous-river-8468.herokuapp.com/modules/doctors/client/img/slider-arrows.png") no-repeat left top;
+	background: transparent url("/modules/doctors/client/img/slider-arrows.png") no-repeat left top;
 	margin-top: -65px;
 }
 .callbacks_nav:active {
@@ -501,7 +501,7 @@ div.slide-text-info {
 	padding:3em 0;
 }
 .about-grid{
-	background:url(https://aqueous-river-8468.herokuapp.com/modules/doctors/client/img/top-grid-info-bg-b.png);
+	background:url(/modules/doctors/client/img/top-grid-info-bg-b.png);
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
@@ -509,7 +509,7 @@ div.slide-text-info {
 	-ms-transition:0.5s all;
 }
 .about-grid:hover,.n-about-grid{
-	background:url(https://aqueous-river-8468.herokuapp.com/modules/doctors/client/img/top-grid-info-bg-bl.png);
+	background:url(/modules/doctors/client/img/top-grid-info-bg-bl.png);
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
@@ -517,7 +517,7 @@ div.slide-text-info {
 	-ms-transition:0.5s all;
 }
 .n-about-grid:hover{
-	background:url(https://aqueous-river-8468.herokuapp.com/modules/doctors/client/img/top-grid-info-bg-b.png);
+	background:url(/modules/doctors/client/img/top-grid-info-bg-b.png);
 }
 .about-grid:hover span{
 	background-position: 0px -79px;
@@ -526,7 +526,7 @@ div.slide-text-info {
 	width: 69px;
 	height: 76px;
 	display: inline-block;
-	background: url(https://aqueous-river-8468.herokuapp.com/modules/doctors/client/img/top-grid-icons1.png) no-repeat 0px 0px;
+	background: url(/modules/doctors/client/img/top-grid-icons1.png) no-repeat 0px 0px;
 	position: absolute;
 	top: 249px;
 	left: 40%;
@@ -576,7 +576,7 @@ div.slide-text-info {
 }
 /*--- services ---*/
 .services{
-	background:url(https://aqueous-river-8468.herokuapp.com/modules/doctors/client/img/service-bg.png);
+	background:url(/modules/doctors/client/img/service-bg.png);
 	padding: 3em 0;
 }
 .services-header{
@@ -600,7 +600,7 @@ div.slide-text-info {
 	width: 224px;
 	height: 244px;
 	display: inline-block;
-	background: url(https://aqueous-river-8468.herokuapp.com/modules/doctors/client/img/services-icons.png) no-repeat 0px 0px;
+	background: url(/modules/doctors/client/img/services-icons.png) no-repeat 0px 0px;
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
@@ -634,7 +634,7 @@ div.slide-text-info {
 .team-member-grid{
 	width:20%;
 	float:left;
-	background:url(https://aqueous-river-8468.herokuapp.com/modules/doctors/client/img/top-grid-info-bg-b.png);
+	background:url(/modules/doctors/client/img/top-grid-info-bg-b.png);
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
@@ -642,7 +642,7 @@ div.slide-text-info {
 	-ms-transition:0.5s all;
 }
 .team-member-grid:hover{
-	background:url(https://aqueous-river-8468.herokuapp.com/modules/doctors/client/img/top-grid-info-bg-bl.png);
+	background:url(/modules/doctors/client/img/top-grid-info-bg-bl.png);
 }
 .team-member-grid img{
 	width:100%;
@@ -670,26 +670,26 @@ div.slide-text-info {
 	width: 34px;
 	height: 21px;
 	display: inline-block;
-	background: url(https://aqueous-river-8468.herokuapp.com/modules/doctors/client/img/top-arrow.png) no-repeat 0px 0px;
+	background: url(/modules/doctors/client/img/top-arrow.png) no-repeat 0px 0px;
 	position: absolute;
 	top: -16px;
 	left: 40%;
 }
 .team-member-grid:hover div.team-member-info span{
-	background: url(https://aqueous-river-8468.herokuapp.com/modules/doctors/client/img/top-arrowb.png) no-repeat 0px 0px;
+	background: url(/modules/doctors/client/img/top-arrowb.png) no-repeat 0px 0px;
 }
 .bottom-t-info-b span{
 	width: 34px;
 	height: 21px;
 	display: inline-block;
-	background: url(https://aqueous-river-8468.herokuapp.com/modules/doctors/client/img/down-arrowb.png) no-repeat 0px 0px;
+	background: url(/modules/doctors/client/img/down-arrowb.png) no-repeat 0px 0px;
 	position: absolute;
 	bottom: 0px;
 	left: 40%;
 	top: 211px;
 }
 .team-member-grid:hover div.bottom-t-info-b span{
-	background: url(https://aqueous-river-8468.herokuapp.com/modules/doctors/client/img/down-arrow.png) no-repeat 0px 0px;
+	background: url(/modules/doctors/client/img/down-arrow.png) no-repeat 0px 0px;
 }
 .bottom-t-info-b{
 	padding:0 1em;
@@ -716,7 +716,7 @@ div.slide-text-info {
 	position: absolute;
 	width: 100%;
 	top: 0px;
-	background: url(https://aqueous-river-8468.herokuapp.com/modules/doctors/client/img/top-grid-info-bg-b.png);
+	background: url(/modules/doctors/client/img/top-grid-info-bg-b.png);
 	padding: 3em;
 	top: 8%;
 }
@@ -755,7 +755,7 @@ div.slide-text-info {
 	width: 32px;
 	height: 32px;
 	display: inline-block;
-	background: url(https://aqueous-river-8468.herokuapp.com/modules/doctors/client/img/contact-icons.png) no-repeat 0px 0px;
+	background: url(/modules/doctors/client/img/contact-icons.png) no-repeat 0px 0px;
 	vertical-align: text-top;
 }
 .contact-grid-left li label{
@@ -846,7 +846,7 @@ div.slide-text-info {
 	width: 25px;
 	height: 25px;
 	display: inline-block;
-	background: url(https://aqueous-river-8468.herokuapp.com/modules/doctors/client/img/f-social-icons.png) no-repeat 4px 0px;
+	background: url(/modules/doctors/client/img/f-social-icons.png) no-repeat 4px 0px;
 }
 .copy-right-right ul li a.facebook span{
 	background-position: 0px 0px;
@@ -880,7 +880,7 @@ div.slide-text-info {
 	height: 40px;
 	border: none;
 	text-indent: 100%;
-	background: url("https://aqueous-river-8468.herokuapp.com/modules/doctors/client/img/to-top1.png") no-repeat 0px 0px;
+	background: url("/modules/doctors/client/img/to-top1.png") no-repeat 0px 0px;
 }
 #toTopHover {
 	width: 40px;
