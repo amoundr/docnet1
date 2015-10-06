@@ -1,3 +1,5 @@
+'use strict';
+
 angular.module('core').controller('StoreCtrl', ['$scope', 'Authentication', '$filter' ,
   function ($scope, Authentication ,$filter) {
     // This provides Authentication context.
