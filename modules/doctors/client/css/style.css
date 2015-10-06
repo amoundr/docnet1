@@ -341,7 +341,7 @@ nav a#pull {
 	text-decoration: none;
 	height: 43px;
 	width: 43px;
-	background: transparent url("https://aqueous-river-8468.herokuapp.com/modules/doctors/img/slider-arrows.png") no-repeat left top;
+	background: transparent url("https://aqueous-river-8468.herokuapp.com/modules/doctors/client/img/slider-arrows.png") no-repeat left top;
 	margin-top: -65px;
 }
 .callbacks_nav:active {
