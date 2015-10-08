@@ -129,7 +129,7 @@ module.exports = function (grunt) {
     cssmin: {
       combine: {
         files: {
-          'public/dist/application.min.css': defaultAssets.client.css
+          'public/dist/application.min.css': defaultAssets.client.css 
         }
       }
     },

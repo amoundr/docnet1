@@ -19,5 +19,7 @@ angular.module('core').controller('HeaderController', ['$scope', '$state', 'Auth
     $scope.$on('$stateChangeSuccess', function () {
       $scope.isCollapsed = false;
     });
+
+    $('head').append('<link  href="/modules/doctors/client/css/doctor1/style.css" rel="stylesheet">');
   }
 ]);

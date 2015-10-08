@@ -4,6 +4,12 @@ angular.module('doctors').controller('SliderController', ['$scope', 'Authenticat
   function ($scope, Authentication) {
 
 
+/*** AD CSS FILES for DOCTOR1 template ***/
+$('head').append('<link  href="/modules/doctors/client/css/doctor1/font-awesome.min.css" rel="stylesheet">');
+$('head').append('<link  href="/modules/doctors/client/css/doctor1/site.css" rel="stylesheet">');
+$('head').append('<link  href="/modules/doctors/client/css/doctor1/style.css" rel="stylesheet">');
+
+
 $scope.showSlider  =   function(){
 
     console.log("firest 1");

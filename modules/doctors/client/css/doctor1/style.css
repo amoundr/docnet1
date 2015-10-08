@@ -81,17 +81,18 @@ border: 0px solid #000000;
 }
 
 /********************************************/
-html, body{
-  	font-family: 'Oswald', sans-serif;
-    font-size: 100%;
-  	 background: #FFf;
-}
+
 body a{
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
+}
+body, html {
+    font-family: Oswald,sans-serif;
+    font-size: 100%;
+    background: #FFf;
 }
 /*-----start-header----*/
 .header{
